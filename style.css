@@ -120,3 +120,17 @@
 .ex-6-img:hover{
     filter: grayscale();
 }
+
+/* ex-7 */
+
+.ex-7-img{
+    transition: filter 2s;
+}
+
+.ex-7-img:hover{
+    filter: brightness(60%) blur(3px);
+}
+
+/* ex-8 */
+
+
