@@ -42,6 +42,7 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 1s linear infinite;
 }
 .ex-11-icon {
     font-size: 60px;
@@ -145,4 +146,12 @@
     filter: grayscale(0.4) saturate(0.6);
     border-radius: 20px;
     transform: scale(1.5);
+}
+
+/* ex-10 */
+
+@keyframes rotate {
+    0%{
+        transform: rotate(360deg);
+    }
 }
