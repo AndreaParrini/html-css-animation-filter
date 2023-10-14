@@ -180,3 +180,59 @@
         transform: rotate(0deg);
     }
 }
+
+/* ex-12 */
+
+.well:hover .ex-12-top-white{
+    animation: movetop 2s linear;
+}
+
+@keyframes movetop {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    25%{
+        top: -10px;
+        left: 40%;
+    }
+    50%{
+        top: -10px;
+        left: 70%;
+    }
+    75%{
+        top: -10px;
+        left: 40%;
+    }
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.well:hover .ex-12-bottom-white{
+    animation: movebottom 2s linear;
+}
+
+@keyframes movebottom {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    25%{
+        bottom: -10px;
+        right: 45%;
+    }
+    50%{
+        bottom: -10px;
+        right: 65%;
+    }
+    75%{
+        bottom: -10px;
+        right: 45%;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
